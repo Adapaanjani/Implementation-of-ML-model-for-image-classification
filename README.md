@@ -2,7 +2,7 @@
 
 A user-friendly web application built with Streamlit that performs real-time image classification using a pre-trained ResNet50 model. Upload any image, and the app will identify objects in it with confidence scores.
 
-![App Demo](assets/demo.png)
+![App Demo](Demo/home.png)
 
 ## 🌟 Features
 
@@ -62,14 +62,16 @@ streamlit run app.py
 Here are some example classifications:
 
 ### Cat Image Classification
-![Cat Classification](assets/cat_example.png)
-- Top prediction: Persian cat (99.2%)
-- Other predictions: Tabby, Siamese cat
+![Cat Classification](Demo/democat1.png)
+![Cat Classification](Demo/democat2.png)
+![Cat Classification](Demo/democat3.png)
+- Top prediction: tabby cat (45.67%)
+- Other predictions: egyptian_cat, tiger cat
 
 ### Dog Image Classification
-![Dog Classification](assets/dog_example.png)
-- Top prediction: Golden retriever (98.7%)
-- Other predictions: Labrador retriever, Sporting dog
+![Dog Classification](Demo/dogdemo.png)
+- Top prediction: Golden retriever (90.64%)
+- Other predictions: Labrador retriever
 
 ## 📁 Project Structure
 
@@ -79,11 +81,13 @@ image-classification-app/
 ├── app.py                  # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── README.md              # Project documentation
-├── assets/                # Example images and screenshots
-│   ├── demo.png
-│   ├── cat_example.png
-│   └── dog_example.png
-└── output/                # Directory for saving results
+├── demo/                # Example images and screenshots
+│   ├── democat1.png
+    ├── democat2.png
+    ├── democat3.png
+│   ├── home.png
+    └── dogdemo.png
+
 ```
 
 ## 📋 Requirements.txt
